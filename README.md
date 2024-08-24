@@ -7,7 +7,7 @@ This project implements a Vision Transformer (ViT) model for multi-class image c
 
 ## Dataset
 
-The dataset contains images for four classes: **Truck**, **Bicycle**, **Car**, and **Motorbike** (each containing 150 images). The dataset can be downloaded from the following link:
+The dataset contains images for four classes: **Truck**, **Bicycle**, **Car**, and **Motorbike** (each containing 150 images; the dataset is downloaded from the internet; hence, it is recommended to evaluate the dataset thoroughly). The dataset can be downloaded from the following link:
 
 [Download Dataset](https://drive.google.com/drive/folders/18Nm5Xp_-WkCbgYQQhFEDhygg1L1MGFoz?usp=drive_link)
 
@@ -21,7 +21,7 @@ Data transformations such as resizing, normalization, and augmentation are appli
 
 ## Model
 
-The Vision Transformer (`ViTForImageClassification`) is initialized from Hugging Face's `transformers` library. The feature extractor (`ViTFeatureExtractor`) is used for preprocessing images before feeding them into the model.
+The Vision Transformer (`ViTForImageClassification`) is initialized from Hugging Face's `transformers` library. The feature extractor (`ViTFeatureExtractor`) is used to preprocess images before feeding them into the model.
 
 Training 
 
