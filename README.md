@@ -9,7 +9,7 @@ This project implements a Vision Transformer (ViT) model for multi-class image c
 
 The dataset contains images for four classes: **Truck**, **Bicycle**, **Car**, and **Motorbike** (each containing 150 images; the dataset is downloaded from the internet; hence, it is recommended to evaluate the dataset thoroughly). The dataset can be downloaded from the following link:
 
-[Download Dataset](https://drive.google.com/drive/folders/18Nm5Xp_-WkCbgYQQhFEDhygg1L1MGFoz?usp=drive_link)
+[Download Dataset](https://www.kaggle.com/datasets/mohiychoithwani/vehicle-image-classification-dataset-4-classes)
 
 Here is a snapshot of the data with the labels:
 
